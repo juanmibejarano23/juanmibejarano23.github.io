@@ -19,6 +19,11 @@
     font-family: "Gugi", cursive;
 }
 
+.navbar.sticky{
+    padding: 15 px 0;
+    background: crimson;
+}
+
 .navbar .max-width{
     display:flex;
     align-items: center;
@@ -29,6 +34,10 @@
     color:#fff;
     font-size: 38px;
     font-weight: 600;
+}
+
+.navbar .logo .a span{
+    color: crimson;
 }
 
 .navbar .menu li{
