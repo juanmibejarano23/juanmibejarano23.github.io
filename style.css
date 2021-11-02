@@ -364,6 +364,39 @@ section .title::after{
     top: 0;
     background: crimson;
 }
+
+.skills .skills-content .right .line2{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+
+.skills .skills-content .right .line2::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(20, 140, 220);
+}
+
+.skills .skills-content .right .line3{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+
+.skills .skills-content .right .line3::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(220, 207, 20);
+}
+
 .skills-content .right .python::before{
     width: 90%;
 }
@@ -392,6 +425,33 @@ section .title::after{
     width: 70%;
 }
 .skills-content .right .pyspark::before{
+    width: 80%;
+}
+.skills-content .right .go::before{
+    width: 70%;
+}
+.skills-content .right .docker::before{
+    width: 85%;
+}
+.skills-content .right .git::before{
+    width: 80%;
+}
+.skills-content .right .linux::before{
+    width: 100%;
+}
+.skills-content .right .shell::before{
+    width: 60%;
+}
+.skills-content .right .nmap::before{
+    width: 80%;
+}
+.skills-content .right .web::before{
+    width: 90%;
+}
+.skills-content .right .burp::before{
+    width: 85%;
+}
+.skills-content .right .owasp::before{
     width: 80%;
 }
 
